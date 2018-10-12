@@ -291,7 +291,7 @@ class New_Toplevel:
         self.Label3.configure(foreground="#000000")
         self.Label3.configure(highlightbackground="#d9d9d9")
         self.Label3.configure(highlightcolor="black")
-        self.Label3.configure(text='''Please Select Three Metrix:''')
+        self.Label3.configure(text='''Please Select Three Metrics:''')
         
         self.Button3 = Button(top)
         self.Button3.place(relx=0.819, rely=0.407, height=53, width=103)
