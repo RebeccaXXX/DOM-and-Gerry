@@ -1,7 +1,8 @@
 #! /usr/bin/env python
 #  -*- coding: utf-8 -*-
 #
-
+'''Please run this py file in windows operation system, it may have some small
+   format problems when running in osx'''
 import os
 import sys
 import pandas as pd

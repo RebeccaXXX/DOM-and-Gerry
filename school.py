@@ -1,7 +1,8 @@
 #! /usr/bin/env python
 #  -*- coding: utf-8 -*-
 #
-
+'''Please run this py file in windows operation system, it may have some small
+   format problems when running in osx'''
 '''Import the packages that we need'''
 import sys
 
@@ -66,7 +67,7 @@ class New_Toplevel:
         ft1 = tkFont.Font(family='Fixdsys', size=30, weight=tkFont.BOLD)
         ft2 = tkFont.Font(family='Fixdsys', size=15, weight=tkFont.BOLD)
         self.Label1 = Label(top,font = ft1)
-        self.Label1.place(relx=0.346, rely=0.013, height=46, width=300)
+        self.Label1.place(relx=0.386, rely=0.013, height=46, width=300)
         self.Label1.configure(activebackground="#f9f9f9")
         self.Label1.configure(activeforeground="black")
         self.Label1.configure(background="#d9d9d9")
@@ -144,7 +145,7 @@ class New_Toplevel:
         self.Label3.configure(text='''Choose County''')
         
         self.Label4 = Label(top,font=ft2)
-        self.Label4.place(relx=0.166, rely=0.507, height=66, width=235)
+        self.Label4.place(relx=0.136, rely=0.507, height=66, width=300)
         self.Label4.configure(activebackground="#f9f9f9")
         self.Label4.configure(activeforeground="black")
         self.Label4.configure(background="#d9d9d9")
@@ -152,10 +153,10 @@ class New_Toplevel:
         self.Label4.configure(foreground="#000000")
         self.Label4.configure(highlightbackground="#d9d9d9")
         self.Label4.configure(highlightcolor="black")
-        self.Label4.configure(text='''County''')
+        self.Label4.configure(text='''Schools in Selected Cluster''')
         
         self.Label5 = Label(top,font=ft2)
-        self.Label5.place(relx=0.646, rely=0.507, height=66, width=235)
+        self.Label5.place(relx=0.606, rely=0.507, height=66, width=300)
         self.Label5.configure(activebackground="#f9f9f9")
         self.Label5.configure(activeforeground="black")
         self.Label5.configure(background="#d9d9d9")
@@ -163,7 +164,7 @@ class New_Toplevel:
         self.Label5.configure(foreground="#000000")
         self.Label5.configure(highlightbackground="#d9d9d9")
         self.Label5.configure(highlightcolor="black")
-        self.Label5.configure(text='''Recommend''')
+        self.Label5.configure(text='''Similar Schools Recommend''')
 
         self.Listbox2 = Listbox(top)
         self.Listbox2.place(relx=0.065, rely=0.593, relheight=0.39

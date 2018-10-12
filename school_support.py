@@ -2,7 +2,8 @@
 #  -*- coding: utf-8 -*-
 #
 
-
+'''Please run this py file in windows operation system, it may have some small
+   format problems when running in osx'''
 import sys
 import pandas as pd
 import numpy as np
