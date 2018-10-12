@@ -153,10 +153,10 @@ class New_Toplevel:
         self.Label4.configure(foreground="#000000")
         self.Label4.configure(highlightbackground="#d9d9d9")
         self.Label4.configure(highlightcolor="black")
-        self.Label4.configure(text='''Schools in Selected Cluster''')
+        self.Label4.configure(text='''Schools in Your County''')
         
         self.Label5 = Label(top,font=ft2)
-        self.Label5.place(relx=0.606, rely=0.507, height=66, width=300)
+        self.Label5.place(relx=0.576, rely=0.507, height=66, width=350)
         self.Label5.configure(activebackground="#f9f9f9")
         self.Label5.configure(activeforeground="black")
         self.Label5.configure(background="#d9d9d9")
@@ -164,7 +164,7 @@ class New_Toplevel:
         self.Label5.configure(foreground="#000000")
         self.Label5.configure(highlightbackground="#d9d9d9")
         self.Label5.configure(highlightcolor="black")
-        self.Label5.configure(text='''Similar Schools Recommend''')
+        self.Label5.configure(text='''Similar Schools Recommendation''')
 
         self.Listbox2 = Listbox(top)
         self.Listbox2.place(relx=0.065, rely=0.593, relheight=0.39

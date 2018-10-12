@@ -283,7 +283,7 @@ class New_Toplevel:
         self.Radiobuttion3_2.configure(variable=GUI_support.var3,value=0)
         
         self.Label3 = Label(top)
-        self.Label3.place(relx=0.036, rely=0.209, height=66, width=255)
+        self.Label3.place(relx=0.036, rely=0.209, height=60, width=255)
         self.Label3.configure(activebackground="#f9f9f9")
         self.Label3.configure(activeforeground="black")
         self.Label3.configure(background="#d9d9d9")
