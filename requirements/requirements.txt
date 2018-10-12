@@ -1,0 +1,5 @@
+pip install plotly
+pip install geopandas 
+pip install geopandas==0.3.0
+pip install pyshp==1.2.10
+pip install shapely==1.6.3
