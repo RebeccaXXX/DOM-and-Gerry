@@ -35,14 +35,18 @@ def set_Tk_var():
 '''print information about different cluster'''
 def button1():
     print('school_support.button1')
+    df=pd.read_csv("files/frame.csv")
+    npdf = np.array(df)#np.ndarray()
+    list=npdf.tolist()#list
+    print(list[0])
     for i in range(30):
         w.Listbox1.insert(0,"")
     w.Listbox1.insert(0,("          % Advanced     % Proficient  % Basic  % Below Basic  Conduct OSS"))
-    w.Listbox1.insert(1,("Cluster1  25.05          39.52         23.66    11.76          1.43"))
-    w.Listbox1.insert(2,("Cluster2  3.71           18.29         31.92    46.06          13.94"))
-    w.Listbox1.insert(3,("Cluster3  13.24          33.51         30.88    22.35          4.35"))
-    w.Listbox1.insert(4,("Cluster4  2.41           13.58         31.61    52.38          56.46"))
-    w.Listbox1.insert(5,("Cluster5  41.52          38.28         14.74    5.45           0.47"))
+    w.Listbox1.insert(1,(list[0][0]+"  "+str(list[0][1])[:6]+"         "+str(list[0][2])[:6]+"        "+str(list[0][3])[:6]+"   "+str(list[0][4])[:6]+"         "+str(list[0][5])[:6]))
+    w.Listbox1.insert(2,(list[1][0]+"  "+str(list[1][1])[:6]+"         "+str(list[1][2])[:6]+"        "+str(list[1][3])[:6]+"   "+str(list[1][4])[:6]+"         "+str(list[1][5])[:6]))
+    w.Listbox1.insert(3,(list[2][0]+"  "+str(list[2][1])[:6]+"         "+str(list[2][2])[:6]+"        "+str(list[2][3])[:6]+"   "+str(list[2][4])[:6]+"         "+str(list[2][5])[:6]))
+    w.Listbox1.insert(4,(list[3][0]+"  "+str(list[3][1])[:6]+"         "+str(list[3][2])[:6]+"        "+str(list[3][3])[:6]+"   "+str(list[3][4])[:6]+"         "+str(list[3][5])[:6]))
+    w.Listbox1.insert(5,(list[4][0]+"  "+str(list[4][1])[:6]+"         "+str(list[4][2])[:6]+"        "+str(list[4][3])[:6]+"   "+str(list[4][4])[:6]+"         "+str(list[4][5])[:6]))
     sys.stdout.flush()
 
 
